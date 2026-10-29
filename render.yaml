@@ -30,8 +30,9 @@ services:
       - key: PORT
         value: "8000"
 
-  # --- Frontend Static Site (Optional alternative to Vercel) ---
-  - type: static
+  # --- Frontend Static Site ---
+  - type: web
+    runtime: static
     name: jalrakshak-frontend
     region: oregon
     plan: free
