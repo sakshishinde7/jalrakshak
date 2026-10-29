@@ -34,7 +34,6 @@ services:
   - type: web
     runtime: static
     name: jalrakshak-frontend
-    region: oregon
     plan: free
     rootDir: frontend
     buildCommand: "npm install && npm run build"
